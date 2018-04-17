@@ -1,11 +1,83 @@
 <!DOCTYPE html>
 <html>
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+li {
+    float: left;
+}
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: #00bfff;
+}
+li.dropdown {
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.dropdown-content a:hover {background-color: ##87cefa}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+</style>
+</head>
 <body>
 
-<h1 style="text-align:center;">ข่าวประกาศ</h1>
+<ul>
+  <li><a href="#home">หน้าแรก</a></li>
+  <li><a href="index2.html">ข่าวประกาศ</a></li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">บริการ</a>
+    <div class="dropdown-content">
+      <a href="#">G Suite for Education</a>
+      <a href="#">Office 365 for Education</a>
+      <a href="#">Microsoft Imagine Premium Webstore</a>
+        <a href="#">VMware Academic Program (VMAP)</a>
+        <a href="#">Google Apps Chula</a>
+        <a href="#">Office 365 Chula</a>
+         <li><a href="#doc">คู่มือและเอกสาร</a></li>
+      <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">เกี่ยวกับศูนย์</a>
+    <div class="dropdown-content">
+      <a href="#">ประวัติความเป็นมา</a>
+      <a href="#">แผนที่</a>
+      <a href="#">ติดต่อเรา</a>
+       
+    </div>
+  </li>
+</ul>
+
+<div <h1 style="text-align:center;">ข่าวประกาศ</h1>
 <p style="text-align:center;">ประกาศปิดให้บริการศูนย์คอมพิวเตอร์ อาคารอนุสรณ์ 50 ปี วันที่ 8 ตุลาคม 2560 และเปิดให้บริการที่ศูนย์คอมพิวเตอร์ อาคาร 9 แทน</p>
 
-<a href="index.html"><p style="text-align:center">หน้าแรก</a>
+  
+</div>
+
 </body>
 </html>
